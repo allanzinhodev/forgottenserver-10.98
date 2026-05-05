@@ -1,8 +1,8 @@
-<npc name="The Oracle" script="The Oracle.lua" walkinterval="0" speechbubble="3">
-	<look typeex="1448" />
-	<parameters>
-		<parameter key="message_greet" value="|PLAYERNAME|, ARE YOU PREPARED TO FACE YOUR DESTINY?" />
-		<parameter key="message_walkaway" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!" />
-		<parameter key="message_farewell" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!" />
-	</parameters>
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Macao" script="data/npc/scripts/oracle.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="132" head="94" body="68" legs="108" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Hello young mage see you're interested in the element of {fire}, like to learn?."/>
+</parameters>
 </npc>

@@ -1,147 +1,207 @@
--- Including the Advanced NPC System
-dofile('data/npc/lib/npcsystem/npcsystem.lua')
+local focuses = {}
+function isFocused(cid)
+	for i, v in pairs(focuses) do
+		if(v == cid) then
+			return true
+		end
+	end
+	return false
+end
 
-function msgcontains(message, keyword)
-	local message, keyword = message:lower(), keyword:lower()
-	if message == keyword then
+function addFocus(cid)
+	if(not isFocused(cid)) then
+		table.insert(focuses, cid)
+	end
+end
+function removeFocus(cid)
+	for i, v in pairs(focuses) do
+		if(v == cid) then
+			table.remove(focuses, i)
+			break
+		end
+	end
+end
+
+function lookAtFocus()
+	for i, v in pairs(focuses) do
+		if(isPlayer(v)) then
+			doNpcSetCreatureFocus(v)
+			return
+		end
+	end
+	doNpcSetCreatureFocus(0)
+end
+
+function selfSayChannel(cid, message)
+	return selfSay(message, cid, false)
+end
+
+function selfMoveToThing(id)
+	errors(false)
+	local thing = getThing(id)
+
+	errors(true)
+	if(thing.uid == 0) then
+		return
+	end
+
+	local t = getThingPosition(id)
+	selfMoveTo(t.x, t.y, t.z)
+	return
+end
+
+function selfMoveTo(x, y, z)
+	local position = {x = 0, y = 0, z = 0}
+	if(type(x) ~= "table") then
+		position = Position(x, y, z)
+	else
+		position = x
+	end
+
+	if(isValidPosition(position)) then
+		doSteerCreature(getNpcId(), position)
+	end
+end
+
+function selfMove(direction, flags)
+	local flags = flags or 0
+	doMoveCreature(getNpcId(), direction, flags)
+end
+
+function selfTurn(direction)
+	doCreatureSetLookDirection(getNpcId(), direction)
+end
+
+function getNpcDistanceTo(id)
+	errors(false)
+	local thing = getThing(id)
+
+	errors(true)
+	if(thing.uid == 0) then
+		return nil
+	end
+
+	local c = getCreaturePosition(id)
+	if(not isValidPosition(c)) then
+		return nil
+	end
+
+	local s = getCreaturePosition(getNpcId())
+	if(not isValidPosition(s) or s.z ~= c.z) then
+		return nil
+	end
+
+	return math.max(math.abs(s.x - c.x), math.abs(s.y - c.y))
+end
+
+function doMessageCheck(message, keyword)
+	if(type(keyword) == "table") then
+		return table.isStrIn(keyword, message)
+	end
+
+	local a, b = message:lower():find(keyword:lower())
+	if(a ~= nil and b ~= nil) then
 		return true
 	end
 
-	return message:find(keyword) and not message:find('(%w+)' .. keyword)
+	return false
 end
 
 function doNpcSellItem(cid, itemid, amount, subType, ignoreCap, inBackpacks, backpack)
-	local amount = amount or 1
-	local subType = subType or 0
-	if ItemType(itemid):isStackable() then
-		local stuff
-		if inBackpacks then
-			stuff = Game.createItem(backpack, 1)
-			stuff:addItem(itemid, math.min(ITEM_STACK_SIZE, amount))
-		else
-			stuff = Game.createItem(itemid, math.min(ITEM_STACK_SIZE, amount))
+	local amount, subType, ignoreCap, item = amount or 1, subType or 1, ignoreCap and true or false, 0
+	if(isItemStackable(itemid)) then
+		if(isItemRune(itemid)) then
+			amount = amount * subType
 		end
-		return Player(cid):addItemEx(stuff, ignoreCap) ~= RETURNVALUE_NOERROR and 0 or amount, 0
+
+		local count = amount
+		repeat
+			item = doCreateItemEx(itemid, math.min(100, count))
+			if(doPlayerAddItemEx(cid, item, ignoreCap) ~= RETURNVALUE_NOERROR) then
+				return 0, 0
+			end
+
+			count = count - math.min(100, count)
+		until count == 0
+		return amount, 0
 	end
 
 	local a = 0
-	if inBackpacks then
-		local container, b = Game.createItem(backpack, 1), 1
+	if(inBackpacks) then
+		local container, b = doCreateItemEx(backpack, 1), 1
 		for i = 1, amount do
-			local item = container:addItem(itemid, subType)
-			if table.contains({(ItemType(backpack):getCapacity() * b), amount}, i) then
-				if Player(cid):addItemEx(container, ignoreCap) ~= RETURNVALUE_NOERROR then
+			item = doAddContainerItem(container, itemid, subType)
+			if(itemid == ITEM_PARCEL) then
+				doAddContainerItem(item, ITEM_LABEL)
+			end
+
+			if(isInArray({(getContainerCapById(backpack) * b), amount}, i)) then
+				if(doPlayerAddItemEx(cid, container, ignoreCap) ~= RETURNVALUE_NOERROR) then
 					b = b - 1
 					break
 				end
 
 				a = i
-				if amount > i then
-					container = Game.createItem(backpack, 1)
+				if(amount > i) then
+					container = doCreateItemEx(backpack, 1)
 					b = b + 1
 				end
 			end
 		end
+
 		return a, b
 	end
 
-	for i = 1, amount do -- normal method for non-stackable items
-		local item = Game.createItem(itemid, subType)
-		if Player(cid):addItemEx(item, ignoreCap) ~= RETURNVALUE_NOERROR then
+	for i = 1, amount do
+		item = doCreateItemEx(itemid, subType)
+		if(itemid == ITEM_PARCEL) then
+			doAddContainerItem(item, ITEM_LABEL)
+		end
+
+		if(doPlayerAddItemEx(cid, item, ignoreCap) ~= RETURNVALUE_NOERROR) then
 			break
 		end
+
 		a = i
 	end
+
 	return a, 0
 end
 
-local func = function(cid, text, type, e, pcid)
-	if Player(pcid):isPlayer() then
-		local creature = Creature(cid)
-		creature:say(text, type, false, pcid, creature:getPosition())
-		e.done = true
-	end
-end
-
-function doCreatureSayWithDelay(cid, text, type, delay, e, pcid)
-	if Player(pcid):isPlayer() then
-		e.done = false
-		e.event = addEvent(func, delay < 1 and 1000 or delay, cid, text, type, e, pcid)
-	end
-end
-
-function doPlayerSellItem(cid, itemid, count, cost)
-	local player = Player(cid)
-	if player:removeItem(itemid, count) then
-		if not player:addMoney(cost) then
-			error('Could not add money to ' .. player:getName() .. '(' .. cost .. 'gp)')
-		end
-		return true
-	end
-	return false
-end
-
-function doPlayerBuyItemContainer(cid, containerid, itemid, count, cost, charges)
-	local player = Player(cid)
-	if not player:removeTotalMoney(cost) then
+function doRemoveItemIdFromPosition(id, n, position)
+	local thing = getThingFromPos({x = position.x, y = position.y, z = position.z, stackpos = 1})
+	if(thing.itemid ~= id) then
 		return false
 	end
 
-	for i = 1, count do
-		local container = Game.createItem(containerid, 1)
-		for x = 1, ItemType(containerid):getCapacity() do
-			container:addItem(itemid, charges)
-		end
-
-		if player:addItemEx(container, true) ~= RETURNVALUE_NOERROR then
-			return false
-		end
-	end
+	doRemoveItem(thing.uid, n)
 	return true
 end
 
-function getCount(string)
-	local b, e = string:find("%d+")
-	if not b then
-		return -1
-	end
-	local count = tonumber(string:sub(b, e))
-	if count > 2 ^ 32 - 1 then
-		print("Warning: Casting value to 32bit to prevent crash\n" .. debug.traceback())
-	end
-	return b and e and math.min(2 ^ 32 - 1, count) or -1
+function getNpcName()
+	return getCreatureName(getNpcId())
 end
 
-function isValidMoney(money)
-	return isNumber(money) and money > 0
+function getNpcPos()
+	return getThingPosition(getNpcId())
 end
 
-function getMoneyCount(string)
-	local b, e = string:find("%d+")
-	if not b then
-		return -1
-	end
-	local count = tonumber(string:sub(b, e))
-	if count > 2 ^ 32 - 1 then
-		print("Warning: Casting value to 32bit to prevent crash\n" .. debug.traceback())
-	end
-	local money = b and e and math.min(2 ^ 32 - 1, count) or -1
-	if isValidMoney(money) then
-		return money
-	end
-	return -1
+function selfGetPosition()
+	local t = getThingPosition(getNpcId())
+	return t.x, t.y, t.z
 end
 
-function getMoneyWeight(money)
-	local weight, currencyItems = 0, Game.getCurrencyItems()
-	for index = #currencyItems, 1, -1 do
-		local currency = currencyItems[index]
-		local worth = currency:getWorth()
-		local currencyCoins = math.floor(money / worth)
-		if currencyCoins > 0 then
-			money = money - (currencyCoins * worth)
-			weight = weight + currency:getWeight(currencyCoins)
-		end
-	end
-	return weight
-end
+msgcontains = doMessageCheck
+moveToPosition = selfMoveTo
+moveToCreature = selfMoveToThing
+selfMoveToCreature = selfMoveToThing
+selfMoveToPosition = selfMoveTo
+isPlayerPremiumCallback = isPremium
+doPosRemoveItem = doRemoveItemIdFromPosition
+doRemoveItemIdFromPos = doRemoveItemIdFromPosition
+doNpcBuyItem = doPlayerRemoveItem
+doNpcSetCreatureFocus = selfFocus
+getNpcCid = getNpcId
+getDistanceTo = getNpcDistanceTo
+getDistanceToCreature = getNpcDistanceTo
+getNpcDistanceToCreature = getNpcDistanceTo

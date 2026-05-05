@@ -108,7 +108,7 @@ add_subdirectory(src)
 
 add_executable(tfs ${tfs_MAIN})
 
-target_link_libraries(tfs tfslib)
+target_link_libraries(tfs tfslib mariadb)
 
 
 
