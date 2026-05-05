@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
@@ -31,14 +32,14 @@ function creatureSayCallback(cid, type, msg)
 
 	elseif msgcontains(msg, "bounty") and TopicState[cid] == 0 then
         if(getPlayerStorageValue(cid, 8877) == 0) then
-		    npcHandler:say("O Livro Bingo e cheio de criminosos! Voce gostaria de me trazer a cabeça de alguns ou cancelar alguma caçada {cancel}?", cid)
+		    npcHandler:say("O Livro Bingo e cheio de criminosos! Voce gostaria de me trazer a cabea de alguns ou cancelar alguma caada {cancel}?", cid)
 		    TopicState[cid] = 1
         elseif(getPlayerStorageValue(cid, 8877) == 1) then
-            npcHandler:say("Voce ainda esta caçando um crimial, volte quando tiver acabado com ele!", cid)
+            npcHandler:say("Voce ainda esta caando um crimial, volte quando tiver acabado com ele!", cid)
 		    npcHandler:releaseFocus(cid)
         elseif(getPlayerStorageValue(cid, 8877) == 2) then
             prize = getPlayerStorageValue(cid, 8876)
-            npcHandler:say("Ooh, voce me trouxe a sua cabeça, Obrigado! Aqui esta sua recompensa!", cid)
+            npcHandler:say("Ooh, voce me trouxe a sua cabea, Obrigado! Aqui esta sua recompensa!", cid)
             doPlayerAddMoney(cid,prize)
             setPlayerStorageValue(cid, 8877, 0)
 		    npcHandler:releaseFocus(cid)
@@ -51,7 +52,7 @@ function creatureSayCallback(cid, type, msg)
             setPlayerStorageValue(cid, 8876, 0)
             npcHandler:releaseFocus(cid)
         else
-            npcHandler:say("Voce nao esta caçando nenhum jogador!", cid)
+            npcHandler:say("Voce nao esta caando nenhum jogador!", cid)
             npcHandler:releaseFocus(cid)
         end
 		

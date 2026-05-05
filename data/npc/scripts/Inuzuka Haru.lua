@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 
 local STORAGE = 100010 -- Não Mecha
 local ITEM = 11879 -- Item a ser Removido , dado pelo primeiro NPC

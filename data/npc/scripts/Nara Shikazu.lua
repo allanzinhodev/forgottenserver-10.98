@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 local ITEM = 13018 -- Item a ser Removido , dado pelo primeiro NPC
 local QUANT = 20 -- Quantidade de item a ser removido dado pelo primeiro npc
 local PREMIO = 2148 -- Premio do NPC

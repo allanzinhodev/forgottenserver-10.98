@@ -1,4 +1,4 @@
-<npc name="Hiatsu" script="data/npc/scripts/travel.lua" walkinterval="2000" floorchange="0">
+<npc name="Hiatsu" script="travel.lua" walkinterval="2000" floorchange="0">
     <health now="100" max="100"/>
     <look type="572" head="78" body="88" legs="0" feet="88" addons="3"/>
         <parameters>

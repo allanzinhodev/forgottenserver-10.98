@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 ---------------------------------
 ------- NPC Missão 1.0 ---------
 --- by Fox - xtibia.com/forum ---

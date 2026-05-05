@@ -1,21 +1,22 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 ---------------------------------
-------- NPC Missão 1.0 ---------
+------- NPC Misso 1.0 ---------
 --- by Fox - xtibia.com/forum ---
 ---------------------------------
 
 --------------
 --- Config ---
 --------------
--- item necessário para fazer a busca
+-- item necessrio para fazer a busca
 local i_required = 11525
 
--- contagem de item necessário para fazer a busca
+-- contagem de item necessrio para fazer a busca
 local i_required_count = 1
 
--- recompensa padrão id item (crystal coins)
+-- recompensa padro id item (crystal coins)
 local i_reward = 2152
 
--- contagem de recompensa id padrão (10)
+-- contagem de recompensa id padro (10)
 local i_reward_count = 3
 
 -- --
@@ -28,7 +29,7 @@ local questname = "gato"
 local npc_message ={
 
 "Eu preciso que voce ache o meu gato, voce vai procura-lo?",
-"Voce não achou meu gato.", 
+"Voce no achou meu gato.", 
 "YOOOOO OBRIGADO!!!, agora estou feliz por voce ser uma boa pessoa te darei uns trocados, {pegue isso.}",
 "Voce ja me ajudou.",
 "OH MEU JOVEM, estou muito triste o meu {GATO} fugiu de novo\nvoce poderia procurar ele por mim ?"
