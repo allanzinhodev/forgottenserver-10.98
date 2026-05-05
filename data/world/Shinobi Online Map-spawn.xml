@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <spawns>
 	<spawn centerx="3150" centery="2257" centerz="0" radius="5">
 		<monster name="Fire Monk" x="1" y="-5" z="0" spawntime="10" />
@@ -65,7 +65,6 @@
 	<spawn centerx="3084" centery="2319" centerz="0" radius="5">
 		<monster name="Fire Monk" x="-2" y="3" z="0" spawntime="10" />
 	</spawn>
-	<spawn centerx="3173" centery="2319" centerz="0" radius="5" />
 	<spawn centerx="3105" centery="2320" centerz="0" radius="5">
 		<monster name="Fire Monk" x="-5" y="-1" z="0" spawntime="10" />
 	</spawn>
@@ -322,7 +321,6 @@
 		<monster name="Fire Monk" x="1" y="-2" z="3" spawntime="10" />
 		<monster name="Rabbit" x="-1" y="-1" z="3" spawntime="10" />
 	</spawn>
-	<spawn centerx="3185" centery="2259" centerz="3" radius="5" />
 	<spawn centerx="3161" centery="2263" centerz="3" radius="5">
 		<monster name="Rabbit" x="-1" y="-1" z="3" spawntime="10" />
 	</spawn>
@@ -354,10 +352,6 @@
 	<spawn centerx="3114" centery="2233" centerz="4" radius="5">
 		<monster name="Rabbit" x="0" y="1" z="4" spawntime="10" />
 	</spawn>
-	<spawn centerx="1931" centery="1447" centerz="5" radius="5" />
-	<spawn centerx="1917" centery="1450" centerz="5" radius="5" />
-	<spawn centerx="1878" centery="1460" centerz="5" radius="5" />
-	<spawn centerx="2574" centery="1668" centerz="5" radius="5" />
 	<spawn centerx="2593" centery="1678" centerz="5" radius="5">
 		<npc name="Ikagura" x="1" y="0" z="5" spawntime="60" />
 	</spawn>
@@ -370,7 +364,6 @@
 		<monster name="Maka" x="-9" y="10" z="5" spawntime="60" />
 		<monster name="Hiroku" x="3" y="10" z="5" spawntime="60" />
 	</spawn>
-	<spawn centerx="2723" centery="1989" centerz="5" radius="10" />
 	<spawn centerx="2723" centery="2004" centerz="5" radius="30">
 		<monster name="Bear" x="-8" y="1" z="5" spawntime="60" />
 		<monster name="Hiroku" x="4" y="11" z="5" spawntime="60" />
@@ -405,7 +398,6 @@
 		<monster name="Hiroku" x="-5" y="2" z="5" spawntime="60" />
 		<monster name="Hizoku" x="-2" y="6" z="5" spawntime="60" />
 	</spawn>
-	<spawn centerx="2458" centery="2180" centerz="5" radius="30" />
 	<spawn centerx="2537" centery="2181" centerz="5" radius="5">
 		<monster name="Bear" x="0" y="2" z="5" spawntime="10" />
 		<monster name="Bear" x="-4" y="4" z="5" spawntime="10" />
@@ -451,20 +443,12 @@
 		<monster name="Rabbit" x="2" y="-2" z="5" spawntime="10" />
 		<monster name="Rabbit" x="-2" y="1" z="5" spawntime="10" />
 	</spawn>
-	<spawn centerx="2460" centery="1670" centerz="6" radius="7" />
-	<spawn centerx="2483" centery="1670" centerz="6" radius="7" />
-	<spawn centerx="2459" centery="1677" centerz="6" radius="7" />
-	<spawn centerx="2483" centery="1685" centerz="6" radius="7" />
-	<spawn centerx="2459" centery="1692" centerz="6" radius="7" />
-	<spawn centerx="2483" centery="1693" centerz="6" radius="7" />
 	<spawn centerx="2574" centery="1808" centerz="6" radius="5">
 		<npc name="Medic Iyashi" x="-1" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="2624" centery="1815" centerz="6" radius="1" />
 	<spawn centerx="2627" centery="1815" centerz="6" radius="1">
 		<npc name="Banker" x="-1" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="2628" centery="1815" centerz="6" radius="1" />
 	<spawn centerx="2566" centery="1831" centerz="6" radius="5">
 		<npc name="Medic Izu" x="-1" y="-1" z="6" spawntime="60" />
 	</spawn>
@@ -705,7 +689,6 @@
 		<monster name="Monk" x="-1" y="-1" z="6" spawntime="10" />
 		<monster name="Rabbit" x="-3" y="1" z="6" spawntime="10" />
 	</spawn>
-	<spawn centerx="3041" centery="2236" centerz="6" radius="5" />
 	<spawn centerx="3011" centery="2246" centerz="6" radius="5">
 		<monster name="Rabbit" x="-4" y="-1" z="6" spawntime="10" />
 		<monster name="Rabbit" x="2" y="-1" z="6" spawntime="10" />
@@ -742,7 +725,6 @@
 	<spawn centerx="2013" centery="646" centerz="7" radius="5">
 		<monster name="Dorobou" x="5" y="-2" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2029" centery="646" centerz="7" radius="5" />
 	<spawn centerx="2053" centery="646" centerz="7" radius="5">
 		<monster name="Dorobou" x="-1" y="1" z="7" spawntime="60" />
 	</spawn>
@@ -752,7 +734,6 @@
 	<spawn centerx="2095" centery="646" centerz="7" radius="5">
 		<monster name="Dorobou" x="-3" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2106" centery="648" centerz="7" radius="5" />
 	<spawn centerx="2120" centery="650" centerz="7" radius="5">
 		<monster name="Dorobou" x="0" y="-2" z="7" spawntime="60" />
 	</spawn>
@@ -1866,7 +1847,6 @@
 		<monster name="Maka" x="-9" y="22" z="7" spawntime="60" />
 		<monster name="Wolf" x="9" y="22" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2702" centery="1342" centerz="7" radius="6" />
 	<spawn centerx="2737" centery="1346" centerz="7" radius="10">
 		<monster name="Bat" x="-1" y="-3" z="7" spawntime="60" />
 		<monster name="Hiroku" x="7" y="0" z="7" spawntime="60" />
@@ -2145,7 +2125,6 @@
 	<spawn centerx="2533" centery="1422" centerz="7" radius="10">
 		<monster name="Maka" x="10" y="-5" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2877" centery="1422" centerz="7" radius="10" />
 	<spawn centerx="2818" centery="1423" centerz="7" radius="10">
 		<monster name="Wolf" x="-3" y="3" z="7" spawntime="60" />
 		<monster name="Bat" x="4" y="8" z="7" spawntime="60" />
@@ -2157,7 +2136,6 @@
 		<monster name="Wolf" x="-3" y="3" z="7" spawntime="60" />
 		<monster name="Bat" x="10" y="5" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1934" centery="1427" centerz="7" radius="30" />
 	<spawn centerx="2258" centery="1427" centerz="7" radius="10">
 		<monster name="Bat" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Wolf" x="10" y="9" z="7" spawntime="60" />
@@ -2514,7 +2492,6 @@
 	<spawn centerx="2897" centery="1495" centerz="7" radius="10">
 		<monster name="Maka" x="-6" y="8" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2895" centery="1498" centerz="7" radius="10" />
 	<spawn centerx="2097" centery="1499" centerz="7" radius="30">
 		<monster name="Hiroku" x="24" y="-16" z="7" spawntime="60" />
 		<monster name="Hiroku" x="-17" y="-11" z="7" spawntime="60" />
@@ -3232,7 +3209,6 @@
 		<monster name="Wolf" x="-23" y="27" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2685" centery="1649" centerz="7" radius="5">
-		<monster name="" x="-1" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3053" centery="1650" centerz="7" radius="30">
 		<monster name="Maka" x="-6" y="-29" z="7" spawntime="60" />
@@ -3287,10 +3263,8 @@
 		<monster name="Bat" x="6" y="7" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2525" centery="1654" centerz="7" radius="5">
-		<monster name="" x="-5" y="-4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2550" centery="1654" centerz="7" radius="5">
-		<monster name="" x="1" y="-4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2925" centery="1656" centerz="7" radius="30">
 		<monster name="Bat" x="28" y="-20" z="7" spawntime="60" />
@@ -3311,10 +3285,8 @@
 		<monster name="Wolf" x="-17" y="28" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2714" centery="1657" centerz="7" radius="5">
-		<monster name="" x="-1" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2648" centery="1661" centerz="7" radius="5">
-		<monster name="" x="-2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2243" centery="1662" centerz="7" radius="30">
 		<monster name="Wolf" x="30" y="-29" z="7" spawntime="60" />
@@ -3388,13 +3360,10 @@
 		<monster name="Wolf" x="-2" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2572" centery="1671" centerz="7" radius="5">
-		<monster name="" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2698" centery="1671" centerz="7" radius="5">
-		<monster name="" x="-2" y="-2" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2610" centery="1672" centerz="7" radius="5">
-		<monster name="" x="0" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3606" centery="1672" centerz="7" radius="30">
 		<monster name="Sanzoku" x="-30" y="-28" z="7" spawntime="60" />
@@ -3409,7 +3378,6 @@
 	</spawn>
 	<spawn centerx="2548" centery="1673" centerz="7" radius="5">
 		<npc name="Takeshi" x="-5" y="-4" z="7" spawntime="60" />
-		<monster name="" x="-1" y="-3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2004" centery="1674" centerz="7" radius="10">
 		<monster name="Wolf" x="-4" y="0" z="7" spawntime="60" />
@@ -3417,7 +3385,6 @@
 		<monster name="Bat" x="-6" y="10" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2741" centery="1674" centerz="7" radius="5">
-		<monster name="" x="1" y="-2" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="3106" centery="1674" centerz="7" radius="30">
 		<monster name="Hizoku" x="0" y="-28" z="7" spawntime="60" />
@@ -3459,7 +3426,6 @@
 		<monster name="Bat" x="22" y="30" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2632" centery="1678" centerz="7" radius="5">
-		<monster name="" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3662" centery="1678" centerz="7" radius="30">
 		<monster name="Sanzoku" x="-12" y="-29" z="7" spawntime="60" />
@@ -3514,13 +3480,11 @@
 		<monster name="Hizoku" x="-10" y="30" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2766" centery="1682" centerz="7" radius="5">
-		<monster name="" x="-2" y="1" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2438" centery="1683" centerz="7" radius="3">
 		<npc name="Tekuno" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2687" centery="1684" centerz="7" radius="5">
-		<monster name="" x="-1" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3155" centery="1684" centerz="7" radius="30">
 		<monster name="Hizoku" x="1" y="-23" z="7" spawntime="60" />
@@ -3613,7 +3577,6 @@
 		<monster name="Snake" x="7" y="7" z="7" spawntime="10" />
 		<monster name="Snake" x="-4" y="10" z="7" spawntime="10" />
 	</spawn>
-	<spawn centerx="2473" centery="1692" centerz="7" radius="1" />
 	<spawn centerx="2442" centery="1693" centerz="7" radius="5">
 		<monster name="Snake" x="4" y="-1" z="7" spawntime="10" />
 		<monster name="Snake" x="-1" y="2" z="7" spawntime="10" />
@@ -3636,7 +3599,6 @@
 		<monster name="Snake" x="-4" y="9" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2719" centery="1698" centerz="7" radius="5">
-		<monster name="" x="1" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3068" centery="1698" centerz="7" radius="10">
 		<monster name="Bat" x="3" y="2" z="7" spawntime="60" />
@@ -3745,7 +3707,6 @@
 		<monster name="Bat" x="24" y="16" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2541" centery="1710" centerz="7" radius="5">
-		<monster name="" x="-2" y="3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2147" centery="1711" centerz="7" radius="30">
 		<monster name="Wolf" x="-23" y="-29" z="7" spawntime="60" />
@@ -3771,8 +3732,6 @@
 		<monster name="Snake" x="-9" y="10" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2572" centery="1713" centerz="7" radius="5">
-		<monster name="" x="4" y="-4" z="7" spawntime="60" />
-		<monster name="" x="-1" y="3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2612" centery="1713" centerz="7" radius="5">
 		<npc name="Citizen" x="3" y="-2" z="7" spawntime="60" />
@@ -3845,10 +3804,8 @@
 		<monster name="Bat" x="18" y="25" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2698" centery="1722" centerz="7" radius="5">
-		<monster name="" x="-3" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2759" centery="1722" centerz="7" radius="5">
-		<monster name="" x="-2" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3262" centery="1722" centerz="7" radius="30">
 		<monster name="Bat" x="4" y="-29" z="7" spawntime="60" />
@@ -3863,13 +3820,11 @@
 		<monster name="Wolf" x="-30" y="27" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2670" centery="1723" centerz="7" radius="5">
-		<monster name="" x="3" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2444" centery="1726" centerz="7" radius="5">
 		<npc name="Citizen" x="0" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2486" centery="1727" centerz="7" radius="5">
-		<monster name="" x="3" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3399" centery="1727" centerz="7" radius="30">
 		<monster name="Bat" x="-25" y="-23" z="7" spawntime="60" />
@@ -3890,7 +3845,6 @@
 	</spawn>
 	<spawn centerx="2519" centery="1729" centerz="7" radius="5">
 		<monster name="Cat" x="-4" y="-2" z="7" spawntime="60" />
-		<monster name="" x="0" y="3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2569" centery="1729" centerz="7" radius="5">
 		<npc name="Gambler" x="-1" y="2" z="7" spawntime="60" />
@@ -3922,28 +3876,23 @@
 		<monster name="Hiroku" x="28" y="14" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2592" centery="1732" centerz="7" radius="5">
-		<monster name="" x="-1" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3062" centery="1732" centerz="7" radius="10">
 		<monster name="Bat" x="-2" y="-6" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2732" centery="1735" centerz="7" radius="5">
-		<monster name="" x="0" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2390" centery="1737" centerz="7" radius="5">
-		<monster name="" x="-3" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2586" centery="1739" centerz="7" radius="2">
 		<npc name="Irohimoshi" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2717" centery="1742" centerz="7" radius="5">
-		<monster name="" x="-1" y="-3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2567" centery="1744" centerz="7" radius="5">
 		<npc name="Teuchi" x="-1" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2605" centery="1744" centerz="7" radius="2">
-		<monster name="" x="0" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3563" centery="1744" centerz="7" radius="30">
 		<monster name="Sanzoku" x="21" y="-24" z="7" spawntime="60" />
@@ -3988,10 +3937,8 @@
 		<npc name="Hizashi" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2635" centery="1751" centerz="7" radius="5">
-		<monster name="" x="-2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2851" centery="1751" centerz="7" radius="5">
-		<monster name="" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2101" centery="1752" centerz="7" radius="30">
 		<monster name="Wolf" x="-25" y="-29" z="7" spawntime="60" />
@@ -4009,7 +3956,6 @@
 		<monster name="Wolf" x="1" y="24" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2376" centery="1753" centerz="7" radius="5">
-		<monster name="" x="-1" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2256" centery="1754" centerz="7" radius="10">
 		<monster name="Bat" x="3" y="-1" z="7" spawntime="60" />
@@ -4027,10 +3973,8 @@
 		<monster name="Hiroku" x="-14" y="17" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2568" centery="1755" centerz="7" radius="5">
-		<monster name="" x="-2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2737" centery="1755" centerz="7" radius="5">
-		<monster name="" x="-1" y="0" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2327" centery="1756" centerz="7" radius="30">
 		<monster name="Rabbit" x="18" y="-30" z="7" spawntime="60" />
@@ -4068,7 +4012,6 @@
 		<monster name="Bat" x="-15" y="28" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2602" centery="1757" centerz="7" radius="5">
-		<monster name="" x="-1" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2914" centery="1758" centerz="7" radius="30">
 		<monster name="Wolf" x="22" y="-23" z="7" spawntime="60" />
@@ -4091,10 +4034,8 @@
 		<monster name="Bat" x="-1" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2404" centery="1759" centerz="7" radius="5">
-		<monster name="" x="0" y="-3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2665" centery="1760" centerz="7" radius="5">
-		<monster name="" x="-4" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2599" centery="1764" centerz="7" radius="2">
 		<npc name="Homura" x="1" y="0" z="7" spawntime="60" />
@@ -4178,12 +4119,10 @@
 		<monster name="Bat" x="-1" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2590" centery="1771" centerz="7" radius="5">
-		<monster name="" x="1" y="-3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2599" centery="1772" centerz="7" radius="5">
 		<npc name="Ino Yamanaka" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2765" centery="1773" centerz="7" radius="5" />
 	<spawn centerx="1922" centery="1774" centerz="7" radius="30">
 		<monster name="Hizoku" x="10" y="9" z="7" spawntime="60" />
 		<monster name="Hiroku" x="-2" y="19" z="7" spawntime="60" />
@@ -4194,7 +4133,6 @@
 		<npc name="Kitaro" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2669" centery="1775" centerz="7" radius="5">
-		<monster name="" x="-2" y="-1" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="3037" centery="1775" centerz="7" radius="30">
 		<monster name="Wolf" x="-21" y="-22" z="7" spawntime="60" />
@@ -4213,9 +4151,7 @@
 		<monster name="Bat" x="-17" y="19" z="7" spawntime="60" />
 		<monster name="Wolf" x="9" y="26" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2019" centery="1777" centerz="7" radius="10" />
 	<spawn centerx="2553" centery="1777" centerz="7" radius="5">
-		<monster name="" x="1" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3101" centery="1777" centerz="7" radius="10">
 		<monster name="Bat" x="0" y="-4" z="7" spawntime="60" />
@@ -4227,7 +4163,6 @@
 		<monster name="Wolf" x="20" y="-22" z="7" spawntime="60" />
 		<monster name="Bat" x="-5" y="-17" z="7" spawntime="60" />
 		<monster name="Wolf" x="-19" y="-14" z="7" spawntime="1536" />
-		<monster name="" x="11" y="-8" z="7" spawntime="60" />
 		<monster name="Bat" x="19" y="-7" z="7" spawntime="60" />
 		<monster name="Wolf" x="-6" y="-4" z="7" spawntime="60" />
 		<monster name="Bat" x="2" y="4" z="7" spawntime="60" />
@@ -4239,12 +4174,9 @@
 		<monster name="Bat" x="-5" y="26" z="7" spawntime="60" />
 		<monster name="Wolf" x="12" y="29" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="3066" centery="1778" centerz="7" radius="10" />
 	<spawn centerx="2716" centery="1779" centerz="7" radius="5">
-		<monster name="" x="2" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2746" centery="1781" centerz="7" radius="5">
-		<monster name="" x="-3" y="-2" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2766" centery="1784" centerz="7" radius="5">
 		<npc name="Inuzuka Iraku" x="-1" y="-4" z="7" spawntime="60" />
@@ -4314,7 +4246,6 @@
 		<monster name="Sanzoku" x="20" y="23" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2728" centery="1796" centerz="7" radius="5">
-		<monster name="" x="3" y="-3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3418" centery="1798" centerz="7" radius="10">
 		<monster name="Bat" x="1" y="-3" z="7" spawntime="60" />
@@ -4340,10 +4271,8 @@
 		<monster name="Bat" x="-1" y="14" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2475" centery="1803" centerz="7" radius="5">
-		<monster name="" x="-5" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2750" centery="1804" centerz="7" radius="5">
-		<monster name="" x="-2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2059" centery="1808" centerz="7" radius="30">
 		<monster name="Wolf" x="-2" y="-26" z="7" spawntime="60" />
@@ -4413,14 +4342,11 @@
 		<monster name="Wolf" x="-30" y="24" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2640" centery="1811" centerz="7" radius="5">
-		<monster name="" x="3" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2597" centery="1812" centerz="7" radius="5">
 		<npc name="Naruto Uzumaki" x="1" y="-3" z="7" spawntime="60" />
-		<monster name="" x="2" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2767" centery="1812" centerz="7" radius="5">
-		<monster name="" x="2" y="3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3662" centery="1813" centerz="7" radius="10">
 		<monster name="Wolf" x="2" y="-4" z="7" spawntime="60" />
@@ -4512,28 +4438,20 @@
 		<monster name="Sanzoku" x="-10" y="4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2731" centery="1835" centerz="7" radius="5">
-		<monster name="" x="2" y="0" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2538" centery="1839" centerz="7" radius="5">
-		<monster name="" x="2" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2507" centery="1842" centerz="7" radius="5">
-		<monster name="" x="-2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2592" centery="1844" centerz="7" radius="5">
-		<monster name="" x="0" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2642" centery="1844" centerz="7" radius="5">
-		<monster name="" x="0" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2686" centery="1846" centerz="7" radius="5">
-		<monster name="" x="0" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2755" centery="1846" centerz="7" radius="5">
-		<monster name="" x="0" y="1" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2585" centery="1848" centerz="7" radius="1">
-		<monster name="" x="0" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3623" centery="1848" centerz="7" radius="30">
 		<monster name="Wolf" x="-13" y="-22" z="7" spawntime="60" />
@@ -4596,7 +4514,6 @@
 		<monster name="Bat" x="-1" y="27" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2666" centery="1859" centerz="7" radius="5">
-		<monster name="" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2585" centery="1860" centerz="7" radius="5">
 		<npc name="Gambler" x="-1" y="-1" z="7" spawntime="60" />
@@ -4630,7 +4547,6 @@
 		<npc name="Koh Hyuuga" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2544" centery="1867" centerz="7" radius="5">
-		<monster name="" x="3" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3580" centery="1867" centerz="7" radius="30">
 		<monster name="Maka" x="-10" y="-19" z="7" spawntime="60" />
@@ -4660,7 +4576,6 @@
 		<monster name="Wolf" x="0" y="25" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2581" centery="1869" centerz="7" radius="5">
-		<monster name="" x="1" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1956" centery="1870" centerz="7" radius="30">
 		<monster name="Bat" x="-23" y="-28" z="7" spawntime="60" />
@@ -4699,10 +4614,8 @@
 		<monster name="Hizoku" x="11" y="29" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2645" centery="1870" centerz="7" radius="5">
-		<monster name="" x="1" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2505" centery="1874" centerz="7" radius="5">
-		<monster name="" x="2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3202" centery="1874" centerz="7" radius="30">
 		<monster name="Bat" x="-1" y="-22" z="7" spawntime="60" />
@@ -4734,17 +4647,13 @@
 		<monster name="Bat" x="-28" y="9" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2675" centery="1878" centerz="7" radius="5">
-		<monster name="" x="-1" y="1" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2699" centery="1881" centerz="7" radius="5">
-		<monster name="" x="-3" y="1" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2593" centery="1883" centerz="7" radius="5">
 		<npc name="Yokimura" x="5" y="-3" z="7" spawntime="60" />
-		<monster name="" x="0" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2733" centery="1883" centerz="7" radius="5">
-		<monster name="" x="-5" y="4" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2310" centery="1884" centerz="7" radius="30">
 		<monster name="Wolf" x="-6" y="-23" z="7" spawntime="60" />
@@ -4786,10 +4695,8 @@
 		<monster name="Bat" x="-9" y="7" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2648" centery="1897" centerz="7" radius="5">
-		<monster name="" x="0" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2727" centery="1897" centerz="7" radius="5">
-		<monster name="" x="1" y="-1" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2026" centery="1899" centerz="7" radius="30">
 		<monster name="Bat" x="2" y="-16" z="7" spawntime="60" />
@@ -4840,16 +4747,12 @@
 		<monster name="Bat" x="14" y="12" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2626" centery="1903" centerz="7" radius="5">
-		<monster name="" x="1" y="-3" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2707" centery="1903" centerz="7" radius="5">
-		<monster name="" x="-2" y="-2" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2593" centery="1904" centerz="7" radius="5">
-		<monster name="" x="-2" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2609" centery="1908" centerz="7" radius="5">
-		<monster name="" x="-5" y="-2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="3575" centery="1914" centerz="7" radius="30">
 		<monster name="Wolf" x="-19" y="-6" z="7" spawntime="60" />
@@ -4907,7 +4810,6 @@
 		<monster name="Bat" x="-7" y="26" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2632" centery="1920" centerz="7" radius="5">
-		<monster name="" x="1" y="-3" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2770" centery="1926" centerz="7" radius="30">
 		<monster name="Wolf" x="-2" y="-15" z="7" spawntime="60" />
@@ -4921,7 +4823,6 @@
 		<monster name="Bat" x="-28" y="22" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2655" centery="1927" centerz="7" radius="5">
-		<monster name="" x="-2" y="-3" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2328" centery="1929" centerz="7" radius="30">
 		<monster name="Wolf" x="15" y="-16" z="7" spawntime="60" />
@@ -4942,7 +4843,6 @@
 		<monster name="Wolf" x="-8" y="8" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2586" centery="1935" centerz="7" radius="5">
-		<monster name="" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2194" centery="1936" centerz="7" radius="30">
 		<monster name="Rabbit" x="-27" y="-29" z="7" spawntime="60" />
@@ -4972,17 +4872,14 @@
 		<monster name="Bat" x="-15" y="23" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2675" centery="1938" centerz="7" radius="5">
-		<monster name="" x="-1" y="-3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2648" centery="1941" centerz="7" radius="5">
-		<monster name="" x="1" y="-1" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2046" centery="1942" centerz="7" radius="6">
 		<monster name="Rabbit" x="-2" y="-4" z="7" spawntime="60" />
 		<monster name="Rabbit" x="3" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2667" centery="1944" centerz="7" radius="5">
-		<monster name="" x="0" y="0" z="7" spawntime="10" />
 	</spawn>
 	<spawn centerx="2288" centery="1945" centerz="7" radius="30">
 		<monster name="Hizoku" x="-13" y="-18" z="7" spawntime="60" />
@@ -4998,7 +4895,6 @@
 		<monster name="Hizoku" x="18" y="29" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2597" centery="1948" centerz="7" radius="5">
-		<monster name="" x="-2" y="3" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2010" centery="1952" centerz="7" radius="30">
 		<monster name="Bat" x="26" y="-14" z="7" spawntime="60" />
@@ -5019,7 +4915,6 @@
 		<monster name="Wolf" x="30" y="28" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2630" centery="1952" centerz="7" radius="5">
-		<monster name="" x="0" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2417" centery="1955" centerz="7" radius="30">
 		<monster name="Wolf" x="-1" y="-26" z="7" spawntime="60" />
@@ -5929,7 +5824,6 @@
 		<monster name="Wolf" x="-19" y="13" z="7" spawntime="60" />
 		<monster name="Maka" x="-5" y="13" z="7" spawntime="60" />
 		<monster name="Wolf" x="9" y="16" z="7" spawntime="60" />
-		<monster name="" x="24" y="20" z="7" spawntime="60" />
 		<monster name="Maka" x="2" y="24" z="7" spawntime="10" />
 		<monster name="Sanzoku" x="-23" y="28" z="7" spawntime="10" />
 	</spawn>
@@ -6203,7 +6097,6 @@
 	<spawn centerx="2579" centery="2180" centerz="7" radius="5">
 		<monster name="Touzoku" x="-4" y="-3" z="7" spawntime="10" />
 	</spawn>
-	<spawn centerx="2558" centery="2182" centerz="7" radius="5" />
 	<spawn centerx="2552" centery="2185" centerz="7" radius="5">
 		<monster name="Dorobou" x="0" y="-1" z="7" spawntime="10" />
 	</spawn>
@@ -6296,7 +6189,6 @@
 		<monster name="Maka" x="4" y="16" z="7" spawntime="60" />
 		<monster name="Maka" x="21" y="25" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="2573" centery="2197" centerz="7" radius="5" />
 	<spawn centerx="2603" centery="2197" centerz="7" radius="5">
 		<monster name="Dorobou" x="4" y="-1" z="7" spawntime="10" />
 		<monster name="Kora" x="2" y="1" z="7" spawntime="10" />
@@ -6368,7 +6260,6 @@
 		<monster name="Touzoku" x="14" y="17" z="7" spawntime="10" />
 		<monster name="Sanzoku" x="-27" y="21" z="7" spawntime="10" />
 	</spawn>
-	<spawn centerx="2518" centery="2211" centerz="7" radius="5" />
 	<spawn centerx="2775" centery="2211" centerz="7" radius="30">
 		<monster name="Wolf" x="-9" y="-18" z="7" spawntime="60" />
 		<monster name="Hizoku" x="-20" y="-14" z="7" spawntime="60" />
@@ -6913,7 +6804,6 @@
 		<monster name="Sanzoku" x="-26" y="27" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2798" centery="2350" centerz="7" radius="1">
-		<monster name="" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="2875" centery="2351" centerz="7" radius="6">
 		<monster name="Rabbit" x="3" y="-4" z="7" spawntime="60" />
@@ -7408,7 +7298,6 @@
 		<monster name="Bat" x="-3" y="8" z="8" spawntime="60" />
 		<monster name="Bat" x="5" y="9" z="8" spawntime="60" />
 	</spawn>
-	<spawn centerx="2588" centery="1886" centerz="8" radius="5" />
 	<spawn centerx="2592" centery="1908" centerz="8" radius="11">
 		<monster name="Bat" x="-3" y="-6" z="8" spawntime="60" />
 		<monster name="Bat" x="5" y="-3" z="8" spawntime="60" />
@@ -7422,8 +7311,6 @@
 	<spawn centerx="2574" centery="2082" centerz="8" radius="5">
 		<monster name="Dorobou" x="-4" y="0" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2564" centery="2083" centerz="8" radius="5" />
-	<spawn centerx="2584" centery="2083" centerz="8" radius="5" />
 	<spawn centerx="2411" centery="2087" centerz="8" radius="5">
 		<monster name="Kora" x="0" y="-3" z="8" spawntime="10" />
 		<monster name="Dorobou" x="2" y="-2" z="8" spawntime="10" />
@@ -7462,14 +7349,12 @@
 	<spawn centerx="2659" centery="2110" centerz="8" radius="5">
 		<monster name="Kora" x="-2" y="4" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2549" centery="2111" centerz="8" radius="5" />
 	<spawn centerx="2409" centery="2113" centerz="8" radius="5">
 		<monster name="Dorobou" x="5" y="5" z="8" spawntime="10" />
 	</spawn>
 	<spawn centerx="2609" centery="2118" centerz="8" radius="5">
 		<monster name="Dorobou" x="-5" y="5" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2415" centery="2120" centerz="8" radius="5" />
 	<spawn centerx="2456" centery="2121" centerz="8" radius="5">
 		<monster name="Kora" x="-1" y="1" z="8" spawntime="10" />
 	</spawn>
@@ -7493,7 +7378,6 @@
 		<monster name="Kora" x="5" y="4" z="8" spawntime="10" />
 		<monster name="Kora" x="-3" y="10" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2601" centery="2124" centerz="8" radius="5" />
 	<spawn centerx="2730" centery="2124" centerz="8" radius="5">
 		<monster name="Gorotsuki" x="0" y="-2" z="8" spawntime="10" />
 	</spawn>
@@ -7503,7 +7387,6 @@
 	<spawn centerx="2640" centery="2126" centerz="8" radius="5">
 		<monster name="Kora" x="-5" y="1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2630" centery="2128" centerz="8" radius="5" />
 	<spawn centerx="2419" centery="2129" centerz="8" radius="5">
 		<monster name="Kora" x="-1" y="-1" z="8" spawntime="10" />
 	</spawn>
@@ -7522,7 +7405,6 @@
 	<spawn centerx="2619" centery="2131" centerz="8" radius="5">
 		<monster name="Dorobou" x="3" y="1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2558" centery="2133" centerz="8" radius="5" />
 	<spawn centerx="2399" centery="2134" centerz="8" radius="5">
 		<monster name="Kora" x="1" y="1" z="8" spawntime="10" />
 	</spawn>
@@ -7540,18 +7422,15 @@
 	<spawn centerx="2389" centery="2136" centerz="8" radius="5">
 		<monster name="Dorobou" x="4" y="0" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2434" centery="2138" centerz="8" radius="5" />
 	<spawn centerx="2423" centery="2139" centerz="8" radius="5">
 		<monster name="Dorobou" x="-1" y="1" z="8" spawntime="10" />
 	</spawn>
 	<spawn centerx="2478" centery="2139" centerz="8" radius="5">
 		<monster name="Dorobou" x="0" y="2" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2561" centery="2142" centerz="8" radius="5" />
 	<spawn centerx="2662" centery="2143" centerz="8" radius="5">
 		<monster name="Kora" x="-1" y="-1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2713" centery="2143" centerz="8" radius="5" />
 	<spawn centerx="2381" centery="2144" centerz="8" radius="5">
 		<monster name="Dorobou" x="1" y="-1" z="8" spawntime="10" />
 	</spawn>
@@ -7585,7 +7464,6 @@
 		<monster name="Kora" x="3" y="-4" z="8" spawntime="10" />
 		<monster name="Dorobou" x="-5" y="5" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2644" centery="2152" centerz="8" radius="5" />
 	<spawn centerx="2374" centery="2153" centerz="8" radius="5">
 		<monster name="Kora" x="4" y="-3" z="8" spawntime="10" />
 		<monster name="Dorobou" x="0" y="2" z="8" spawntime="10" />
@@ -7593,7 +7471,6 @@
 	<spawn centerx="2720" centery="2154" centerz="8" radius="5">
 		<monster name="Dorobou" x="0" y="-3" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2551" centery="2155" centerz="8" radius="5" />
 	<spawn centerx="2608" centery="2156" centerz="8" radius="5">
 		<monster name="Kora" x="2" y="3" z="8" spawntime="10" />
 	</spawn>
@@ -7625,11 +7502,9 @@
 		<monster name="Gorotsuki" x="3" y="-4" z="8" spawntime="10" />
 		<monster name="Dorobou" x="-1" y="4" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2357" centery="2165" centerz="8" radius="5" />
 	<spawn centerx="2542" centery="2165" centerz="8" radius="5">
 		<monster name="Dorobou" x="2" y="-1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2478" centery="2167" centerz="8" radius="5" />
 	<spawn centerx="2615" centery="2167" centerz="8" radius="5">
 		<monster name="Dorobou" x="1" y="1" z="8" spawntime="10" />
 	</spawn>
@@ -7648,7 +7523,6 @@
 	<spawn centerx="2631" centery="2172" centerz="8" radius="5">
 		<monster name="Dorobou" x="2" y="-2" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2663" centery="2172" centerz="8" radius="5" />
 	<spawn centerx="2460" centery="2174" centerz="8" radius="5">
 		<monster name="Dorobou" x="1" y="2" z="8" spawntime="10" />
 	</spawn>
@@ -7700,7 +7574,6 @@
 	<spawn centerx="2341" centery="2187" centerz="8" radius="5">
 		<monster name="Kora" x="3" y="-1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2490" centery="2188" centerz="8" radius="5" />
 	<spawn centerx="2741" centery="2189" centerz="8" radius="5">
 		<monster name="Kora" x="-2" y="0" z="8" spawntime="10" />
 	</spawn>
@@ -7739,7 +7612,6 @@
 	<spawn centerx="2568" centery="2205" centerz="8" radius="5">
 		<monster name="Kora" x="4" y="2" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2466" centery="2207" centerz="8" radius="5" />
 	<spawn centerx="2630" centery="2207" centerz="8" radius="5">
 		<monster name="Kora" x="0" y="1" z="8" spawntime="10" />
 	</spawn>
@@ -7761,7 +7633,6 @@
 	<spawn centerx="2487" centery="2210" centerz="8" radius="5">
 		<monster name="Dorobou" x="-1" y="0" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2705" centery="2211" centerz="8" radius="5" />
 	<spawn centerx="2578" centery="2213" centerz="8" radius="5">
 		<monster name="Dorobou" x="1" y="1" z="8" spawntime="10" />
 	</spawn>
@@ -7785,7 +7656,6 @@
 		<monster name="Kora" x="-2" y="-5" z="8" spawntime="10" />
 		<monster name="Dorobou" x="1" y="4" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2550" centery="2218" centerz="8" radius="5" />
 	<spawn centerx="2650" centery="2219" centerz="8" radius="5">
 		<monster name="Kora" x="0" y="-1" z="8" spawntime="10" />
 	</spawn>
@@ -7851,7 +7721,6 @@
 		<monster name="Kora" x="1" y="-2" z="8" spawntime="10" />
 		<monster name="Gorotsuki" x="3" y="0" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2539" centery="2239" centerz="8" radius="5" />
 	<spawn centerx="2604" centery="2240" centerz="8" radius="5">
 		<monster name="Kora" x="0" y="-2" z="8" spawntime="10" />
 	</spawn>
@@ -7893,7 +7762,6 @@
 	<spawn centerx="2610" centery="2256" centerz="8" radius="5">
 		<monster name="Kora" x="1" y="1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2673" centery="2257" centerz="8" radius="5" />
 	<spawn centerx="2621" centery="2258" centerz="8" radius="5">
 		<monster name="Dorobou" x="4" y="3" z="8" spawntime="10" />
 	</spawn>
@@ -7910,14 +7778,12 @@
 	<spawn centerx="2584" centery="2266" centerz="8" radius="5">
 		<monster name="Dorobou" x="1" y="4" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2689" centery="2266" centerz="8" radius="5" />
 	<spawn centerx="2523" centery="2267" centerz="8" radius="5">
 		<monster name="Dorobou" x="0" y="4" z="8" spawntime="10" />
 	</spawn>
 	<spawn centerx="2678" centery="2268" centerz="8" radius="5">
 		<monster name="Dorobou" x="-2" y="-5" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2640" centery="2269" centerz="8" radius="5" />
 	<spawn centerx="2559" centery="2272" centerz="8" radius="5">
 		<monster name="Kora" x="-2" y="1" z="8" spawntime="10" />
 	</spawn>
@@ -7941,7 +7807,6 @@
 	<spawn centerx="2550" centery="2279" centerz="8" radius="5">
 		<monster name="Kora" x="-1" y="0" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2596" centery="2280" centerz="8" radius="5" />
 	<spawn centerx="2661" centery="2280" centerz="8" radius="5">
 		<monster name="Gorotsuki" x="1" y="0" z="8" spawntime="10" />
 		<monster name="Kora" x="0" y="2" z="8" spawntime="10" />
@@ -7953,7 +7818,6 @@
 		<monster name="Dorobou" x="1" y="2" z="8" spawntime="10" />
 		<monster name="Kora" x="3" y="3" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2532" centery="2284" centerz="8" radius="5" />
 	<spawn centerx="2712" centery="2284" centerz="8" radius="5">
 		<monster name="Gorotsuki" x="1" y="-2" z="8" spawntime="10" />
 	</spawn>
@@ -7972,7 +7836,6 @@
 	<spawn centerx="2703" centery="2291" centerz="8" radius="5">
 		<monster name="Kora" x="1" y="-2" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2619" centery="2292" centerz="8" radius="5" />
 	<spawn centerx="2508" centery="2296" centerz="8" radius="5">
 		<monster name="Gorotsuki" x="3" y="-2" z="8" spawntime="10" />
 		<monster name="Kora" x="-4" y="2" z="8" spawntime="10" />
@@ -7993,7 +7856,6 @@
 	<spawn centerx="2592" centery="2299" centerz="8" radius="5">
 		<monster name="Touzoku" x="-3" y="3" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2670" centery="2300" centerz="8" radius="5" />
 	<spawn centerx="2681" centery="2302" centerz="8" radius="5">
 		<monster name="Kora" x="-4" y="-1" z="8" spawntime="10" />
 		<monster name="Gorotsuki" x="-2" y="0" z="8" spawntime="10" />
@@ -8035,7 +7897,6 @@
 	<spawn centerx="2636" centery="2345" centerz="8" radius="5">
 		<monster name="Touzoku" x="2" y="-1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2672" centery="2345" centerz="8" radius="5" />
 	<spawn centerx="2644" centery="2350" centerz="8" radius="5">
 		<monster name="Touzoku" x="2" y="1" z="8" spawntime="10" />
 	</spawn>
@@ -8068,11 +7929,9 @@
 		<monster name="Touzoku" x="-2" y="-4" z="8" spawntime="10" />
 		<monster name="Dorobou" x="1" y="3" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2590" centery="2366" centerz="8" radius="5" />
 	<spawn centerx="2630" centery="2367" centerz="8" radius="5">
 		<monster name="Touzoku" x="0" y="-1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2640" centery="2369" centerz="8" radius="5" />
 	<spawn centerx="2692" centery="2372" centerz="8" radius="5">
 		<monster name="Touzoku" x="2" y="2" z="8" spawntime="10" />
 	</spawn>
@@ -8090,7 +7949,6 @@
 	<spawn centerx="2622" centery="2387" centerz="8" radius="5">
 		<monster name="Touzoku" x="-2" y="0" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2710" centery="2388" centerz="8" radius="5" />
 	<spawn centerx="2613" centery="2394" centerz="8" radius="5">
 		<monster name="Dorobou" x="-1" y="-1" z="8" spawntime="10" />
 	</spawn>
@@ -8100,26 +7958,21 @@
 	<spawn centerx="2606" centery="2407" centerz="8" radius="5">
 		<monster name="Touzoku" x="4" y="2" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2614" centery="2414" centerz="8" radius="5" />
 	<spawn centerx="2635" centery="2421" centerz="8" radius="5">
 		<monster name="Touzoku" x="-4" y="-1" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2625" centery="2422" centerz="8" radius="5" />
 	<spawn centerx="2641" centery="2424" centerz="8" radius="5">
 		<monster name="Dorobou" x="2" y="1" z="8" spawntime="10" />
 	</spawn>
 	<spawn centerx="2617" centery="2426" centerz="8" radius="5">
 		<monster name="Dorobou" x="1" y="3" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2642" centery="2430" centerz="8" radius="5" />
 	<spawn centerx="2622" centery="2435" centerz="8" radius="5">
 		<monster name="Dorobou" x="2" y="4" z="8" spawntime="10" />
 	</spawn>
 	<spawn centerx="2645" centery="2440" centerz="8" radius="5">
 		<monster name="Touzoku" x="2" y="-3" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2623" centery="2443" centerz="8" radius="5" />
-	<spawn centerx="2641" centery="2448" centerz="8" radius="5" />
 	<spawn centerx="2632" centery="2449" centerz="8" radius="5">
 		<monster name="Touzoku" x="3" y="-1" z="8" spawntime="10" />
 	</spawn>
@@ -8132,7 +7985,6 @@
 	<spawn centerx="2653" centery="2455" centerz="8" radius="5">
 		<monster name="Dorobou" x="-3" y="0" z="8" spawntime="10" />
 	</spawn>
-	<spawn centerx="2664" centery="2456" centerz="8" radius="5" />
 	<spawn centerx="2623" centery="2461" centerz="8" radius="5">
 		<monster name="Touzoku" x="-3" y="-3" z="8" spawntime="10" />
 	</spawn>
@@ -8168,7 +8020,6 @@
 		<monster name="Dorobou" x="-5" y="-2" z="9" spawntime="60" />
 		<monster name="Dorobou" x="-1" y="2" z="9" spawntime="60" />
 	</spawn>
-	<spawn centerx="2251" centery="1692" centerz="9" radius="5" />
 	<spawn centerx="2393" centery="1692" centerz="9" radius="1">
 		<monster name="Maka" x="0" y="-1" z="9" spawntime="30" />
 	</spawn>

@@ -59,17 +59,17 @@ function selfMoveTo(x, y, z)
 	end
 
 	if(isValidPosition(position)) then
-		doSteerCreature(getNpcId(), position)
+		doSteerCreature(getNpcCid(), position)
 	end
 end
 
 function selfMove(direction, flags)
 	local flags = flags or 0
-	doMoveCreature(getNpcId(), direction, flags)
+	doMoveCreature(getNpcCid(), direction, flags)
 end
 
 function selfTurn(direction)
-	doCreatureSetLookDirection(getNpcId(), direction)
+	doCreatureSetLookDirection(getNpcCid(), direction)
 end
 
 function getNpcDistanceTo(id)
@@ -86,7 +86,7 @@ function getNpcDistanceTo(id)
 		return nil
 	end
 
-	local s = getCreaturePosition(getNpcId())
+	local s = getCreaturePosition(getNpcCid())
 	if(not isValidPosition(s) or s.z ~= c.z) then
 		return nil
 	end
@@ -179,15 +179,15 @@ function doRemoveItemIdFromPosition(id, n, position)
 end
 
 function getNpcName()
-	return getCreatureName(getNpcId())
+	return getCreatureName(getNpcCid())
 end
 
 function getNpcPos()
-	return getThingPosition(getNpcId())
+	return getThingPosition(getNpcCid())
 end
 
 function selfGetPosition()
-	local t = getThingPosition(getNpcId())
+	local t = getThingPosition(getNpcCid())
 	return t.x, t.y, t.z
 end
 
@@ -200,8 +200,8 @@ isPlayerPremiumCallback = isPremium
 doPosRemoveItem = doRemoveItemIdFromPosition
 doRemoveItemIdFromPos = doRemoveItemIdFromPosition
 doNpcBuyItem = doPlayerRemoveItem
-doNpcSetCreatureFocus = selfFocus
-getNpcCid = getNpcId
+-- doNpcSetCreatureFocus is already registered in C++ (npc.cpp), no alias needed
+-- getNpcCid is already registered in C++ (npc.cpp), no alias needed
 getDistanceTo = getNpcDistanceTo
 getDistanceToCreature = getNpcDistanceTo
 getNpcDistanceToCreature = getNpcDistanceTo

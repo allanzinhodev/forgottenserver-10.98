@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 --------------
 --- Config ---
 ---------------- --
@@ -68,8 +69,8 @@ else
 if getPlayerStorageValue(cid, 855451) < 1 then 
 setPlayerStorageValue(cid,storage, 1)
 actionMove(cid, 568, 2000)
-addEvent(doCreateNpc, 5000, 'Cat', getThingPos(getNpcId()))
-doRemoveCreature(getNpcId(), true)
+addEvent(doCreateNpc, 5000, 'Cat', getThingPos(getNpcCid()))
+doRemoveCreature(getNpcCid(), true)
 doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Voce pegou o gato da Madame Shijimi.")
 randomMove(cid, 10)
 doSendMagicEffect(getCreaturePosition(cid), 10)
