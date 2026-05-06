@@ -22,8 +22,6 @@
 	</attacks>
 	<defenses armor="0" defense="0"/>
 	<loot>
-		<item id="13254" countmax="2" chance="1600"/><!-- worm -->
-		<item id="13019" countmax="1" chance="6666"/><!-- worm -->
 	</loot>
 	<script>
 		<!-- <event name="Hit"/> -->

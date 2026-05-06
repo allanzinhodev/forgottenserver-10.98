@@ -31,6 +31,6 @@
 	<item id="2152" countmax="2" chance="35000"/>
 	</loot>
 <script>
-<!-- <!-- <event name="Hit"/> --> -->
+<!--  <event name="Hit"/> -->
 </script>
 </monster>

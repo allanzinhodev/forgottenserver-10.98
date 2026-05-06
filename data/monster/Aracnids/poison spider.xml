@@ -36,6 +36,6 @@
 		<item id="2148" countmax="4" chance="37000"/><!-- gold coin -->
 	</loot>
 		<script>
-<!-- <!-- <event name="Hit"/> --> -->
+<!--  <event name="Hit"/> -->
 </script>
 </monster>

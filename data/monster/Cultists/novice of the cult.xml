@@ -41,9 +41,6 @@
 		<element firePercent="-5"/>
 		<element deathPercent="-5"/>
 	</elements>
-	<summons maxSummons="3">
-		<summon name="Chicken" interval="2000" chance="10000"/>
-	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Fear us!"/>
 		<voice sentence="You will not tell anyone what you have seen."/>

@@ -48,7 +48,7 @@
 	<loot>
 		<item id="2148" countmax="82" chance="100000"/><!-- gold coin -->
 		<item id="2645" chance="2222"/><!-- steel boots -->
-		<item id="2152" countmax="3" chance="200000"/><!-- platinum coin -->
+		<item id="2152" countmax="3" chance="100000"/><!-- platinum coin -->
 		<item id="2393" chance="660"/><!-- giant sword -->
 		<item id="5741" chance="1000"/><!-- skull helmet -->
 		<item id="2666" countmax="5" chance="30000"/><!-- meat -->

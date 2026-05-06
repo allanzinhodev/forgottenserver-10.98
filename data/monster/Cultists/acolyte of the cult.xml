@@ -45,9 +45,6 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-	<summons maxSummons="2">
-		<summon name="Skeleton" interval="2000" chance="10000"/>
-	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Praise voodoo!"/>
 	</voices>

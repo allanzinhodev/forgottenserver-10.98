@@ -44,9 +44,7 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-	<summons maxSummons="2">
-		<summon name="Ghoul" interval="2000" chance="10000"/>
-	</summons>
+
 	<loot>
 		<item id="2148" countmax="47" chance="100000"/><!-- gold coin -->
 		<item id="2147" countmax="2" chance="4000"/><!-- small ruby -->

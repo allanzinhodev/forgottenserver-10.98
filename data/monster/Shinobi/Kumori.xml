@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Kumori" nameDescription="a Kumori" race="blood" experience="1500" speed="400" manacost="600">
-	<health now="2500" max="2400"/>
+	<health now="2400" max="2400"/>
 	<look type="510" corpse="12978"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
@@ -30,6 +30,6 @@
 	<item id="2152" countmax="2" chance="35000"/>
 	</loot>
 <script>
-<!-- <!-- <event name="Hit"/> --> -->
+<!--  <event name="Hit"/> -->
 </script>
 </monster>

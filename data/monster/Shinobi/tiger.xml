@@ -30,6 +30,6 @@
 	<item id="11204" countmax="1" chance="10000"/><!-- wolf paw -->
 	</loot>
 <script>
-<!-- <!-- <event name="Hit"/> --> -->
+<!--  <event name="Hit"/> -->
 </script>
 </monster>

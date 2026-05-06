@@ -33,6 +33,6 @@
 	<item id="12581" chance="10000"/> <!-- Black shinobi sandals-->
 	</loot>
 <script>
-<!-- <!-- <event name="Hit"/> --> -->
+<!--  <event name="Hit"/> -->
 </script>
 </monster>

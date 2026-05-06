@@ -27,11 +27,7 @@
 	<immunities>
 	</immunities>         
 	<loot>
-	<item id="2148" countmax="13" chance="50000"/>     
-	<item id="3553" chance="5000"/>  <!-- mercenary razor -->
-	<item id="3973" chance="1000"/>  <!-- black shinobi pants-->   
-	<item id="4427" chance="500"/>  <!-- steel plated gloves--> 
-	<item id="3562" countmax="3" chance="1000"/> <!-- Black shinobi sandals-->
+
 	</loot>
 	<script>
 		<!-- <event name="Hit"/> -->

@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Charged Energy Elemental",
+    "file": "data/monster/Energy-Elementals/charged energy elemental.xml",
+    "issues": [
+      "Unknown element percent (2 occurrences)"
+    ]
+  },
+  {
+    "name": "Crazed Beggar",
+    "file": "data/monster/Outlaws/crazed beggar.xml",
+    "issues": [
+      "Unknown element percent (5 occurrences)"
+    ]
+  },
+  {
+    "name": "Demon",
+    "file": "data/monster/Demons/demon.xml",
+    "issues": [
+      "Unknown element percent (7 occurrences)"
+    ]
+  },
+  {
+    "name": "Energy Elemental",
+    "file": "data/monster/Energy-Elementals/energy elemental.xml",
+    "issues": [
+      "Unknown element percent (4 occurrences)"
+    ]
+  },
+  {
+    "name": "Energy Overlord",
+    "file": "data/monster/Energy-Elementals/energy overlord.xml",
+    "issues": [
+      "Unknown element percent (2 occurrences)"
+    ]
+  },
+  {
+    "name": "Fluffy",
+    "file": "data/monster/Bosses/fluffy.xml",
+    "issues": [
+      "Chance value out of bounds for spell: energy",
+      "Chance value out of bounds for spell: poison"
+    ]
+  },
+  {
+    "name": "Kora",
+    "file": "data/monster/Shinobi/Kora.xml",
+    "issues": [
+      "Unknown spell name: Goukakyuu12",
+      "Cant load spell"
+    ]
+  },
+  {
+    "name": "Leviathan",
+    "file": "data/monster/Bosses/leviathan.xml",
+    "issues": [
+      "targetdistance less than 1",
+      "yell chance value out of bounds"
+    ]
+  },
+  {
+    "name": "Mahrdis",
+    "file": "data/monster/Pharaohs/mahrdis.xml",
+    "issues": [
+      "Cant load spell"
+    ]
+  },
+  {
+    "name": "Mushi Bunshin",
+    "file": "data/monster/Bunshin/mushi bunshin.xml",
+    "issues": [
+      "Unknown spell name: Kikkaichu Bashira Monster",
+      "Cant load spell"
+    ]
+  },
+  {
+    "name": "Sea Serpent",
+    "file": "data/monster/Serpents/sea serpent.xml",
+    "issues": [
+      "targetdistance less than 1",
+      "yell chance value out of bounds"
+    ]
+  },
+  {
+    "name": "Skeleton Warrior",
+    "file": "data/monster/Skeletons/skeleton warrior.xml",
+    "issues": [
+      "Missing chance value on non-melee spell: lifedrain"
+    ]
+  },
+  {
+    "name": "Spirit of Water",
+    "file": "data/monster/Arena/scrapper/spirit of water.xml",
+    "issues": [
+      "Missing chance value on non-melee spell: physical"
+    ]
+  },
+  {
+    "name": "The Count",
+    "file": "data/monster/Bosses/the count.xml",
+    "issues": [
+      "Unknown element percent (2 occurrences)"
+    ]
+  },
+  {
+    "name": "The Dark Dancer",
+    "file": "data/monster/Arena/scrapper/the dark dancer.xml",
+    "issues": [
+      "Missing chance value on non-melee spell: poisoncondition"
+    ]
+  },
+  {
+    "name": "Touzoku",
+    "file": "data/monster/Shinobi/Touzoku.xml",
+    "issues": [
+      "Unknown loot item id 124643",
+      "Cant load loot"
+    ]
+  },
+  {
+    "name": "Vampire",
+    "file": "data/monster/Undead Humanoids/vampire.xml",
+    "issues": [
+      "Chance value out of bounds for spell: speed"
+    ]
+  },
+  {
+    "name": "Wisp",
+    "file": "data/monster/Ghosts/wisp.xml",
+    "issues": [
+      "Missing chance value on non-melee spell: lifedrain"
+    ]
+  },
+  {
+    "name": "Young Sea Serpent",
+    "file": "data/monster/Serpents/young sea serpent.xml",
+    "issues": [
+      "targetdistance less than 1",
+      "Cant load loot (2 occurrences)"
+    ]
+  },
+  {
+    "name": "Zig",
+    "file": "data/monster/Shinobi/Zig.xml",
+    "issues": [
+      "Unknown spell name: Goukakyuu12",
+      "Cant load spell"
+    ]
+  }
+]

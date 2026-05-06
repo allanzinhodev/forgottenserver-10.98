@@ -32,6 +32,6 @@
 	<item id="12689" chance="1000"/> <!-- curved kunai --> 	
 	</loot>
 <script>
-<!-- <!-- <event name="Hit"/> --> -->
+<!--  <event name="Hit"/> -->
 </script>
 </monster>

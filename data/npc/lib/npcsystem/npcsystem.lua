@@ -1,6 +1,10 @@
 -- Advanced NPC System (Created by Jiddo),
 -- Modified by Talaturen.
 
+if(getDataDir == nil) then
+	function getDataDir() return 'data/' end
+end
+
 if(NpcSystem == nil) then
 	-- Loads the underlying classes of the npcsystem.
 	dofile(getDataDir() .. 'npc/lib/npcsystem/keywordhandler.lua')
