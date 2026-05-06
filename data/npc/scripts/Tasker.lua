@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 local MSG_DEFAULT = 'I have many {tasks} for you!' 
 local GRETZ_MSG   = 'Hello adventurer. '        .. MSG_DEFAULT
 local WTF_MESSAGE = 'I can\'t understand you. Are you interested in any of my {tasks} ?'
@@ -13,8 +14,8 @@ NpcSystem.parseParameters(npcHandler)
 function onCreatureAppear(cid)npcHandler:onCreatureAppear(cid)end
 function onCreatureDisappear(cid)npcHandler:onCreatureDisappear(cid)end
 function onThink()
-local direction = getCreatureLookDirection(getNpcId())
-doCreatureSetLookDirection(getNpcId(), 2)
+local direction = getCreatureLookDirection(getNpcCid())
+doCreatureSetLookDirection(getNpcCid(), 2)
 npcHandler:onThink()
 end
 function onCreatureSay(cid, type, msg) npcHandler:onCreatureSay(cid, type, msg) end

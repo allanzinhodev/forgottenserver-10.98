@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 days = 30
 vipcoins = 13324
 quant = 10

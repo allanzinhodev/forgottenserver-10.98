@@ -36,17 +36,17 @@ function onCreatureSay(cid, type, msg)
 	elseif (msgcontains(msg, 'hi') and (focus == 0) and (focus ~= cid) and (getDistanceToCreature(cid) <= 4)) then
 
 		selfSay(replaceName(cid, NPC_MESSAGES["Hi Duel"]))
-		local dire = getDirectionTo(getThingPos(getNpcId()), getThingPos(cid))
+		local dire = getDirectionTo(getThingPos(getNpcCid()), getThingPos(cid))
 
-		doCreatureSetLookDirection(getNpcId(), dire)
+		doCreatureSetLookDirection(getNpcCid(), dire)
 		focus = cid
 	elseif (msgcontains(msg, 'yes') and focus == cid) then
 		if getPlayerStorageValue(cid, STORAGES_DUEL["Duel"]) <= 0 then
-			pos = getThingPos(getNpcId())
-			dir = getCreatureLookDir(getNpcId())
+			pos = getThingPos(getNpcCid())
+			dir = getCreatureLookDir(getNpcCid())
 
 			selfSay(replaceName(cid, NPC_MESSAGES["Yes Duel"]))
-			doRemoveCreature(getNpcId(), true)
+			doRemoveCreature(getNpcCid(), true)
 			local monster = doCreateMonster("NPCBattle", pos)
 
 			registerCreatureEvent(monster, "DeathDuel")

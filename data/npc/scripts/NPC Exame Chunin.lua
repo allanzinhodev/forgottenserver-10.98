@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 -- Exame Chunin completo feito por Vitor Bertolucci.
 -- Favor nao postar nem compartilhar este codigo.
 -- Favor manter esses comentarios quando for utilizar o codigo.

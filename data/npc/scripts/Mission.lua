@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 local focuses = {}
 local function isFocused(cid)
 	for i, v in pairs(focuses) do

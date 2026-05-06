@@ -14852,10 +14852,10 @@
   <item id="7919" article="a" name="globe" />
   <item fromid="7920" toid="7923" article="a" name="picture" />
   <item id="7924" name="stone stairs">
-    <attribute key="floorchange" value="southEx" />
+    <attribute key="floorchange" value="south" />
   </item>
   <item id="7925" name="stone stairs">
-    <attribute key="floorchange" value="eastEx" />
+    <attribute key="floorchange" value="east" />
   </item>
   <item id="7926" article="a" name="dead troll champion">
     <attribute key="containerSize" value="10" />
@@ -15654,7 +15654,7 @@
     <attribute key="floorchange" value="west" />
   </item>
   <item id="8716" name="stairs">
-    <attribute key="floorchange" value="southEx" />
+    <attribute key="floorchange" value="south" />
   </item>
   <item id="8717" article="a" name="pocket tool">
     <attribute key="weight" value="85" />

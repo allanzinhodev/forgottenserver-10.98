@@ -8,5 +8,4 @@
 	<event type="death" name="PlayerDeath" script="player_death.lua" />
 	<event type="death" name="DropLoot" script="drop_loot.lua" />
 	<event type="extendedopcode" name="ExtendedOpcode" script="extended_opcode.lua" />
-	<event type="statschange" name="Hit" event="script" value="hit.lua"/>
 </creaturescripts>

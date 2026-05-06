@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Pet" nameDescription="an pet" race="blood" experience="0" speed="400" manacost="0">
+<monster name="Pet" nameDescription="an pet" race="blood" experience="0" speed="400" manacost="9999">
 	<health now="25" max="25"/>
 	<look type="403"/>
 	<targetchange interval="2000" chance="0"/>

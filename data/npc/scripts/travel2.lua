@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
@@ -17,7 +18,7 @@ function creatureSayCallback(cid, type, msg)
         end
 
 	if isPremium(cid) == FALSE then
-		return doPlayerSendCancel(cid, "Desculpe, eu posso levar apenas Ninjas VIP. Você não é premium account.")
+		return doPlayerSendCancel(cid, "Desculpe, eu posso levar apenas Ninjas VIP. Voc no  premium account.")
 	end
 	
 	if msgcontains (msg, 'yes') or msgcontains (msg, 'sim') then

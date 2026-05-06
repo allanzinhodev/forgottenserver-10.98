@@ -38,6 +38,6 @@
 			<item id="13035" countmax="1" chance="900"/><!-- fuuma shuriken -->
 	</loot>
 <script>
-<!-- <!-- <event name="Hit"/> --> -->
+<!-- <! <event name="Hit"/> --> 
 </script>
 </monster>

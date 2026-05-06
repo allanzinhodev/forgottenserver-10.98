@@ -45,10 +45,6 @@
 	<immunities>
 		<immunity paralyze="1"/>
 	</immunities>
-	<summons maxSummons="2">
-		<summon name="Crypt Shambler" interval="2000" chance="10000"/>
-		<summon name="Ghost" interval="2000" chance="10000"/>
-	</summons>
 	<loot>
 		<item id="2148" countmax="82" chance="47831"/><!-- gold coin -->
 		<item id="2654" chance="5000"/><!-- cape -->

@@ -1,21 +1,22 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 ---------------------------------
-------- NPC Missão 1.0 ---------
+------- NPC Misso 1.0 ---------
 --- by Fox - xtibia.com/forum ---
 ---------------------------------
 
 --------------
 --- Config ---
 --------------
--- item necessário para fazer a busca
+-- item necessrio para fazer a busca
 local i_required = 13012
 
--- contagem de item necessário para fazer a busca
+-- contagem de item necessrio para fazer a busca
 local i_required_count = 10
 
--- recompensa padrão id item (crystal coins)
+-- recompensa padro id item (crystal coins)
 local i_reward = 12691
 
--- contagem de recompensa id padrão (10)
+-- contagem de recompensa id padro (10)
 local i_reward_count = 1
 
 -- --
@@ -26,11 +27,11 @@ local questname = "broken kunai"
 
 -- NPC Messages --
 local npc_message = {
-"Entao vamos começar, preciso que voce va ate a floresta e procure por um grupo de  bandidos chamados Hizuko, eles vivem atacando pessoas inocente, eles possuem um grande  arsenal de Kunais, derrote alguns deles e traga 10 Kunais quebradas para mim.  ",
-"Voce não achou meu gato.", 
+"Entaovamoscomear,precisoquevocevaateaflorestaeprocureporumgrupode bandidoschamadosHizuko,elesvivematacandopessoasinocente,elespossuemumgrande arsenaldeKunais,derrotealgunsdelesetraga10Kunaisquebradasparamim. ",
+"Voce no achou meu gato.", 
 "Obrigado por ajudar um velho como eu, forgei esta arma para voce, tome.",
 "Voce ja me ajudou.",
-"Ha hoje em dia algumas lendas passadas sao esquecidas, me chamo Itsumo o grande  mestre das armas, ja criei varios tipos de armas para diferentes tipos de guerreiros, ja lutei  contra varios oponente, mas chega uma hora que infelizmente precisamos nos Aposentar, hoje  em dia coleto {broken kunai}, para derreter seu metal, fazendo novas armas  muito mais fortes, voce pode me ajudar ?",
+"Hahojeemdiaalgumaslendaspassadassaoesquecidas,mechamoItsumoogrande mestredasarmas,jacrieivariostiposdearmasparadiferentestiposdeguerreiros,jalutei contravariosoponente,maschegaumahoraqueinfelizmenteprecisamosnosAposentar,hoje emdiacoleto{broken kunai},paraderreterseumetal,fazendonovasarmas muitomaisfortes,vocepodemeajudar?",
 "Desculpa voce nao pode me ajudar agora."
 }
 

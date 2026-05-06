@@ -235,11 +235,11 @@ if(Modules == nil) then
 
 	-- Custom message matching callback function for greeting messages.
 	function FocusModule.messageMatcher(keywords, message)
-		local spectators = getSpectators(getCreaturePosition(getNpcId()), 7, 7)
+		local spectators = getSpectators(getCreaturePosition(getNpcCid()), 7, 7)
 		for i, word in pairs(keywords) do
 			if(type(word) == 'string') then
 				if(string.find(message, word) and not string.find(message, '[%w+]' .. word) and not string.find(message, word .. '[%w+]')) then
-					if(string.find(message, getCreatureName(getNpcId()))) then
+					if(string.find(message, getCreatureName(getNpcCid()))) then
 						return true
 					end
 

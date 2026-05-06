@@ -85,8 +85,8 @@ end
 
 function onThink()
 
-       local direction = getCreatureLookDirection(getNpcId())
-	   doCreatureSetLookDirection(getNpcId(), 1)
+       local direction = getCreatureLookDirection(getNpcCid())
+	   doCreatureSetLookDirection(getNpcCid(), 1)
 	for i, focus in pairs(focuses) do
 		if(not isCreature(focus)) then
 			removeFocus(focus)

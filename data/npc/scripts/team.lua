@@ -1,3 +1,4 @@
+dofile('data/npc/lib/npcsystem/npcsystem.lua')
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
@@ -18,7 +19,7 @@ function onThink()                          npcHandler:onThink() end
 function creatureSayCallback(cid, type, msg)
 
 	if (msgcontains(msg, "hello") or msgcontains(msg, "hi")) and (not npcHandler:isFocused(cid)) then
-		npcHandler:say("Olá, como posso ajuda-lo?", cid)
+		npcHandler:say("Ol, como posso ajuda-lo?", cid)
 		npcHandler:addFocus(cid)
 		TopicState[cid] = 0
 
@@ -26,20 +27,20 @@ function creatureSayCallback(cid, type, msg)
 		return false
 
 	elseif msgcontains(msg, "bye") or msgcontains(msg, "farewell") then
-		npcHandler:say("Até mais, volte sempre que necessário.", cid, TRUE)
+		npcHandler:say("At mais, volte sempre que necessrio.", cid, TRUE)
 		npcHandler:releaseFocus(cid)
 
 	elseif msgcontains(msg, "team") and TopicState[cid] == 0 then
-		npcHandler:say("Você deseja virar sensei e ter seu proprio team?", cid)
+		npcHandler:say("Voc deseja virar sensei e ter seu proprio team?", cid)
 		TopicState[cid] = 1
 
 	elseif msgcontains(msg, "sim") or msgcontains(msg, "yes") and TopicState[cid] == 1 then
         gstat = getPlayerGuildRank(cid)
   		if gstat == "" then
-            npcHandler:say("Ok, então qual será o nome do seu team?", cid)
+            npcHandler:say("Ok, ento qual ser o nome do seu team?", cid)
 	        TopicState[cid] = 2
   		elseif gstat == "Member" or gstat == "Vice" or gstat == "Leader" or gstat == "Sensei" then
-  			npcHandler:say("Desculpa, mas você já é membro de um team.", cid)
+  			npcHandler:say("Desculpa, mas voc j  membro de um team.", cid)
   		    npcHandler:releaseFocus(cid)
         end
 	    
@@ -52,7 +53,7 @@ function creatureSayCallback(cid, type, msg)
     		   npcHandler:say("Pronto, para saber os comandos do seu Team diga {!commands} no chat do seu Team.", cid)
     		   npcHandler:releaseFocus(cid)
             else
-               npcHandler:say("Já existe um team com esse nome.", cid) 
+               npcHandler:say("J existe um team com esse nome.", cid) 
             end
         else
                npcHandler:say("O nome do team deve ter entre "..minLen.." e "..maxLen.." caracteres.", cid)
@@ -64,5 +65,5 @@ function creatureSayCallback(cid, type, msg)
 end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
-npcHandler:setMessage(MESSAGE_WALKAWAY, "Sem educação!")
-npcHandler:setMessage(MESSAGE_IDLETIMEOUT, "Até mais então.")
+npcHandler:setMessage(MESSAGE_WALKAWAY, "Sem educao!")
+npcHandler:setMessage(MESSAGE_IDLETIMEOUT, "At mais ento.")
