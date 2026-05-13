@@ -1,73 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monsters>
-	<!-- README:
-		We really appreciate if someone could help us
-		with getting real monster attributes, loot etc
-
-		[ MISSING MONSTERS (not all listed there)
-			Ape Bosses
-				Hairman The Huge
-
-			Barbarians Bosses
-				Barbaria
-
-			Bio-Elemental Bosses
-				Diseased Bill
-				Diseased Dan
-				Diseased Fred
-				The Plasmother
-
-			Canine Bosses
-				The Big Bad One
-
-			Crustaceans
-				Blood Crab (Underwater)
-
-			Dragon Bosses
-				Pythius the Rotten
-
-			Dwarves
-				Dwarf Henchman
-				Dwarf Miner
-				Dwarf Dispenser
-
-			Giant Bosses
-				Freegoiz
-				Stonecracker
-				The Old Whopper
-
-			Ghosts
-				Dryad
-				Ghostly Apparition
-				Tormented Ghost
-
-			Orc Bosses
-				Warlord Ruzad
-
-			Quara Bosses
-				Inky
-				Sharptooth
-				Splasher
-
-			Rifts
-				Rift Phantom
-				Rift Lord
-
-			Traps
-				Deathspawn
-				Hell Hole
-				Kitty
-				Lavahole
-				Magic Pillar
-				Mechanical Fighter
-				Pillar
-
-			Undead Humanoids
-				Undead Jester
-		]
-
-		You can send your work here: http://otland.net/project.php?projectid=2
-	-->
+	<!-- Bandits -->
+	<monster name="Butcher" file="Bandits/butcher.xml"/>
+	<monster name="Bandit" file="Bandits/bandit.xml"/>
+	<monster name="Blacktrunk" file="Bandits/blacktrunk.xml"/>
+	
 	<!-- Amazons -->
 	<monster name="Amazon" file="Amazons/amazon.xml"/>
 	<monster name="Valkyrie" file="Amazons/valkyrie.xml"/>
@@ -322,7 +259,6 @@
 
 	<!-- Giants -->
 	<monster name="Behemoth" file="Giants/behemoth.xml"/>
-	<monster name="Cyclops" file="Giants/cyclops.xml"/>
 	<monster name="Cyclops Drone" file="Giants/cyclops drone.xml"/>
 	<monster name="Cyclops Smith" file="Giants/cyclops smith.xml"/>
 	<monster name="Frost Giant" file="Giants/frost giant.xml"/>
